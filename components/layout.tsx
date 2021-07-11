@@ -1,5 +1,5 @@
 /**
- * Copyright 2020 Vercel Inc.
+ * Copyright 2020 NT.GG Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -65,7 +65,7 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
               ))}
             </div>
             <div className={cn(styles['header-right'])}>
-              <HostedByVercel />
+              <HostedByNT.GG />
             </div>
           </header>
         )}
