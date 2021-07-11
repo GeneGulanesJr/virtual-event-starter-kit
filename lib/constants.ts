@@ -45,15 +45,15 @@ export const NAVIGATION = [
     route: '/stage/a'
   },
   {
-    name: 'Stage C',
+    name: 'Stage B',
     route: '/stage/c'
   },
   {
-    name: 'Stage M',
+    name: 'Stage C',
     route: '/stage/m'
   },
   {
-    name: 'Stage E',
+    name: 'Stage D',
     route: '/stage/e'
   },
   {

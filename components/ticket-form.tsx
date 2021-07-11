@@ -191,7 +191,7 @@ export default function Form({ defaultUsername = '', setTicketGenerationState }:
             {formState === 'loading' ? (
               <LoadingDots size={4} />
             ) : (
-              username || 'Generate with GitHub'
+              username || 'Got It'
             )}
           </div>
           {username ? (
@@ -205,14 +205,14 @@ export default function Form({ defaultUsername = '', setTicketGenerationState }:
             'Only public info will be used.'
           ) : (
             <>
-              GitHub OAuth app is required.{' '}
+              {' '}
               <a
                 href={`${REPO}#authentication`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={ticketFormStyles['learn-more']}
               >
-                Learn more.
+               Checked In 9:00AM.
               </a>
             </>
           )}
