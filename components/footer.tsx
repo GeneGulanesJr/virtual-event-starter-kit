@@ -27,8 +27,7 @@ export function HostedByVercel() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className={styles['secondary-text']}>Created by </div>
-      <VercelLogo color="white" />
+
     </a>
   );
 }
@@ -42,8 +41,7 @@ export default function Footer() {
           <div className={styles['footer-separator']} />
         </div>
         <div className={styles['footer-copyright']}>
-          Copyright © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} All
-          rights reserved.
+
         </div>
         <div className={styles['footer-center-group']}>
           <p className={styles['footer-paragraph']}>
@@ -53,7 +51,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Source Code
+
             </a>
           </p>
           <div className={styles['footer-separator']} />
@@ -64,7 +62,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Code of Conduct
+
             </a>
           </p>
           {LEGAL_URL && (
@@ -77,7 +75,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Legal
+
                 </a>
               </p>
             </>
