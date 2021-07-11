@@ -15,7 +15,7 @@ yarn global add prismic-cli
 Then you can clone the project and launch a Prismic repository.
 
 ```bash
-prismic theme --theme-url https://github.com/vercel/virtual-event-starter-kit/archive/main.zip --conf lib/cms-providers/prismic/README.md --custom-types lib/cms-providers/prismic/custom_types --documents lib/cms-providers/prismic/documents
+prismic theme --theme-url https://github.com/NT.GG/virtual-event-starter-kit/archive/main.zip --conf lib/cms-providers/prismic/README.md --custom-types lib/cms-providers/prismic/custom_types --documents lib/cms-providers/prismic/documents
 ```
 
 Note that you will likely need to log into your Prismic account or signup. After that, the command will download the project files, create a Prismic repository, & install the project dependencies.
@@ -50,4 +50,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&env=PRISMIC_REPO_ID,PRISMIC_ACCESS_TOKEN)
+[![Deploy with NT.GG](https://NT.GG.com/button)](https://NT.GG.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FNT.GG%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20NT.GG.&demo-url=https%3A%2F%2Fdemo.NT.GG.events%2F&demo-image=https%3A%2F%2Fdemo.NT.GG.events%2Fdeploy.png&env=PRISMIC_REPO_ID,PRISMIC_ACCESS_TOKEN)

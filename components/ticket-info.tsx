@@ -1,5 +1,5 @@
 /**
- * Copyright 2020 Vercel Inc.
+ * Copyright 2020 NT.GG Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ import styles from './ticket-info.module.css';
 import styleUtils from './utils.module.css';
 import Logo from './logo';
 import { DATE, SITE_URL } from '@lib/constants';
-import VercelLogo from '@components/icons/icon-platform';
+import NT.GGLogo from '@components/icons/icon-platform';
 
 const siteUrl = new URL(SITE_URL);
 const siteUrlForTicket = `${siteUrl.host}${siteUrl.pathname}`.replace(/\/$/, '');
@@ -28,7 +28,7 @@ export default function TicketInfo({ logoTextSecondaryColor = 'var(--accents-5)'
     <div className={styles['created-by']}>
       <div className={styles['created-by-text']}>Created by </div>
       <div className={styles['created-by-logo']}>
-        <VercelLogo height="100%" color="var(--accents-4)" />
+        <NT.GGLogo height="100%" color="var(--accents-4)" />
       </div>
     </div>
   );

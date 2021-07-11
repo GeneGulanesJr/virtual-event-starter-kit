@@ -1,5 +1,5 @@
 /**
- * Copyright 2020 Vercel Inc.
+ * Copyright 2020 NT.GG Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,14 +15,14 @@
  */
 
 import cn from 'classnames';
-import VercelLogo from '@components/icons/icon-platform';
+import NT.GGLogo from '@components/icons/icon-platform';
 import styles from './footer.module.css';
 import { COPYRIGHT_HOLDER, SITE_NAME, CODE_OF_CONDUCT, LEGAL_URL, REPO } from '@lib/constants';
 
-export function HostedByVercel() {
+export function HostedByNT.GG() {
   return (
     <a
-      href="https://vercel.com"
+      href="https://NT.GG.com"
       className={cn(styles['footer-link'], styles['footer-logo'])}
       target="_blank"
       rel="noopener noreferrer"
@@ -37,7 +37,7 @@ export default function Footer() {
     <footer className={cn(styles.footer)}>
       <div className={styles['footer-legal']}>
         <div className={styles['footer-hostedby']}>
-          <HostedByVercel />
+          <HostedByNT.GG />
           <div className={styles['footer-separator']} />
         </div>
         <div className={styles['footer-copyright']}>

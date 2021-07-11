@@ -2,9 +2,9 @@
   "name": "virtual-event-starter-kit",
   "description": "Starter kit for your virtual event.",
   "private": true,
-  "repository": "vercel/virtual-event-starter-kit",
-  "author": "Vercel Inc.",
-  "homepage": "https://demo.vercel.events",
+  "repository": "NT.GG/virtual-event-starter-kit",
+  "author": "NT.GG Inc.",
+  "homepage": "https://demo.NT.GG.events",
   "license": "Apache-2.0",
   "engines": {
     "node": "12.x"
@@ -13,7 +13,7 @@
     "dev": "next",
     "start": "next start",
     "build": "next build",
-    "license": "addlicense -l apache -c 'Vercel Inc.' components/**/* lib/**/* pages/**/* styles/**/* *.ts *.js"
+    "license": "addlicense -l apache -c 'NT.GG Inc.' components/**/* lib/**/* pages/**/* styles/**/* *.ts *.js"
   },
   "dependencies": {
     "@agility/content-fetch": "1.0.0",

@@ -1,8 +1,8 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_I1h8Dm9Mf30VNb3xQ0hebYvS&external-id=%7B%22manifest%22%3A%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fvercel%2Fvirtual-event-starter-kit%2Fmain%2Fdatocms.json%22%7D)
+[![Deploy with NT.GG](https://NT.GG.com/button)](https://NT.GG.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FNT.GG%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20NT.GG.&demo-url=https%3A%2F%2Fdemo.NT.GG.events%2F&demo-image=https%3A%2F%2Fdemo.NT.GG.events%2Fdeploy.png&integration-ids=oac_I1h8Dm9Mf30VNb3xQ0hebYvS&external-id=%7B%22manifest%22%3A%20%22https%3A%2F%2Fraw.githubusercontent.com%2FNT.GG%2Fvirtual-event-starter-kit%2Fmain%2Fdatocms.json%22%7D)
 
-# [Virtual Event Starter Kit](https://vercel.com/virtual-event-starter-kit)
+# [Virtual Event Starter Kit](https://NT.GG.com/virtual-event-starter-kit)
 
-### Demo: https://demo.vercel.events
+### Demo: https://demo.NT.GG.events
 
 This virtual event starter kit was used to run [Next.js Conf 2020](https://nextjs.org/2020/conf), which had almost 40,000 live attendees. It includes the following features:
 
@@ -26,7 +26,7 @@ This platform is built upon three principles:
   - [TypeScript](https://nextjs.org/docs/basic-features/typescript)
 - CMS: [Multiple Options](#cms)
 - Videos: [YouTube](https://www.youtube.com)
-- Deployment: [Vercel](https://vercel.com)
+- Deployment: [NT.GG](https://NT.GG.com)
 - Authentication: [GitHub OAuth](https://docs.github.com/en/free-pro-team@latest/developers/apps/authorizing-oauth-apps)
 - Database: [Redis](https://redis.io)
 
@@ -49,9 +49,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Clone and Deploy
 
-Click the button below to clone and deploy this template on [Vercel](https://vercel.com/).
+Click the button below to clone and deploy this template on [NT.GG](https://NT.GG.com/).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_I1h8Dm9Mf30VNb3xQ0hebYvS&external-id=%7B%22manifest%22%3A%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fvercel%2Fvirtual-event-starter-kit%2Fmain%2Fdatocms.json%22%7D)
+[![Deploy with NT.GG](https://NT.GG.com/button)](https://NT.GG.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FNT.GG%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20NT.GG.&demo-url=https%3A%2F%2Fdemo.NT.GG.events%2F&demo-image=https%3A%2F%2Fdemo.NT.GG.events%2Fdeploy.png&integration-ids=oac_I1h8Dm9Mf30VNb3xQ0hebYvS&external-id=%7B%22manifest%22%3A%20%22https%3A%2F%2Fraw.githubusercontent.com%2FNT.GG%2Fvirtual-event-starter-kit%2Fmain%2Fdatocms.json%22%7D)
 
 You’ll be asked to install the [DatoCMS](https://www.datocms.com) integration. It lets you sign up or log in to DatoCMS and create a new DatoCMS project based on the data (speakers, stages, etc.) used in the demo.
 
@@ -59,9 +59,9 @@ You’ll be asked to install the [DatoCMS](https://www.datocms.com) integration.
 
 ### CMS
 
-Environment variables determine which CMS to use. See [`lib/cms-api.ts`](lib/cms-api.ts) for details and `.env.local.example` for all environment variables. The demo ([demo.vercel.events](https://demo.vercel.events)) uses DatoCMS, but we also have support for:
+Environment variables determine which CMS to use. See [`lib/cms-api.ts`](lib/cms-api.ts) for details and `.env.local.example` for all environment variables. The demo ([demo.NT.GG.events](https://demo.NT.GG.events)) uses DatoCMS, but we also have support for:
 
-- [Agility](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_Dnqk9CoC6rZ18k9nVR9KresV&external-id=%7B%22manifest%22%3A%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fvercel%2Fvirtual-event-starter-kit%2Fmain%2Fdatocms.json%22%2C%20%22githubRepo%22%3A%20%22vercel%2Fvirtual-event-starter-kit%22%7D)
+- [Agility](https://NT.GG.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FNT.GG%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20NT.GG.&demo-url=https%3A%2F%2Fdemo.NT.GG.events%2F&demo-image=https%3A%2F%2Fdemo.NT.GG.events%2Fdeploy.png&integration-ids=oac_Dnqk9CoC6rZ18k9nVR9KresV&external-id=%7B%22manifest%22%3A%20%22https%3A%2F%2Fraw.githubusercontent.com%2FNT.GG%2Fvirtual-event-starter-kit%2Fmain%2Fdatocms.json%22%2C%20%22githubRepo%22%3A%20%22NT.GG%2Fvirtual-event-starter-kit%22%7D)
 - [Contentful](lib/cms-providers/contentful.ts)
 - [Prismic](lib/cms-providers/prismic/index.ts) ([Instructions](lib/cms-providers/prismic/README.md))
 - [Sanity](https://create.sanity.io/?template=sanity-io%2Fsanity-template-nextjs-event-starter)
@@ -74,7 +74,7 @@ Environment variables determine which CMS to use. See [`lib/cms-api.ts`](lib/cms
 
 ## Authentication and Database
 
-Some features won’t work until you set up authentication and database. The demo ([demo.vercel.events](https://demo.vercel.events)) uses [GitHub OAuth](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-an-oauth-app) for authentication and [Redis](https://redis.io/) for database. You can use different providers as you see fit.
+Some features won’t work until you set up authentication and database. The demo ([demo.NT.GG.events](https://demo.NT.GG.events)) uses [GitHub OAuth](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-an-oauth-app) for authentication and [Redis](https://redis.io/) for database. You can use different providers as you see fit.
 
 ### Authentication
 
@@ -95,12 +95,12 @@ First, create a [GitHub OAuth application](https://docs.github.com/en/free-pro-t
 
 Once it’s set up, sign up using the registration form on the home page (not on a stage page) and then click "Generate with GitHub".
 
-#### On Vercel:
+#### On NT.GG:
 
 - Set the Authorization Callback URL as `<your deployment’s URL>/api/github-oauth` on GitHub.
-- Set `NEXT_PUBLIC_GITHUB_OAUTH_CLIENT_ID` and `GITHUB_OAUTH_CLIENT_SECRET` on [Vercel Project Environment Variables Settings](https://vercel.com/docs/environment-variables) for the production environment.
+- Set `NEXT_PUBLIC_GITHUB_OAUTH_CLIENT_ID` and `GITHUB_OAUTH_CLIENT_SECRET` on [NT.GG Project Environment Variables Settings](https://NT.GG.com/docs/environment-variables) for the production environment.
 - Edit `SITE_URL` in `lib/constants.ts` to match your deployment’s URL (no trailing slash).
-- Push the code to redeploy the Project on Vercel.
+- Push the code to redeploy the Project on NT.GG.
 
 ### Database
 
@@ -109,7 +109,7 @@ You need a database to save user data and enable the following features:
 - Generating a unique ticket number for each email when signing up on the registration form. If DB is not set up, it’ll always be `1234`.
 - Generating a unique ticket image or ticket URL after signing in with GitHub. If DB is not set up, each ticket image or URL will show generic data.
 
-The demo ([demo.vercel.events](https://demo.vercel.events)) uses [Redis](https://redis.io/), but you can customize it to use any database you like.
+The demo ([demo.NT.GG.events](https://demo.NT.GG.events)) uses [Redis](https://redis.io/), but you can customize it to use any database you like.
 
 #### Running Redis Locally
 
@@ -132,9 +132,9 @@ REDIS_EMAIL_TO_ID_SECRET=foo # Come up with your own secret string
 4. In a separate terminal window, start the Next.js dev server (`yarn dev`) and sign up using the registration form.
 5. In a separate terminal window, run Redis CLI, list keys (`keys *`) and inspect a `id:<hash>` key (`hgetall id:<hash>`). You should see the newly registered user.
 
-#### Using Redis On Vercel
+#### Using Redis On NT.GG
 
-Provision your own Redis instance and set `REDIS_PORT`, `REDIS_URL`, `REDIS_PASSWORD`, `REDIS_SSL_ENABLED` and `REDIS_EMAIL_TO_ID_SECRET` (come up with your own secret string) on [Vercel Project Environment Variables Settings](https://vercel.com/docs/environment-variables) for the production environment.
+Provision your own Redis instance and set `REDIS_PORT`, `REDIS_URL`, `REDIS_PASSWORD`, `REDIS_SSL_ENABLED` and `REDIS_EMAIL_TO_ID_SECRET` (come up with your own secret string) on [NT.GG Project Environment Variables Settings](https://NT.GG.com/docs/environment-variables) for the production environment.
 
 If you do not want to maintain a Redis server, you can use [Upstash](https://upstash.com) which provides Serverless Redis with a free tier.
 
@@ -150,7 +150,7 @@ The primary use case for this is updating the YouTube embedded URL. Next.js Conf
 
 ### Schedule / Speaker Pages
 
-Schedule and speaker information is hosted in the CMS. The demo ([demo.vercel.events](https://demo.vercel.events)) is seeded with images from Unsplash and a placeholder schedule. Each speaker has their own page with an image, bio, social media links, and information about their talk. The schedule is also shown as a sidebar on each corresponding stage.
+Schedule and speaker information is hosted in the CMS. The demo ([demo.NT.GG.events](https://demo.NT.GG.events)) is seeded with images from Unsplash and a placeholder schedule. Each speaker has their own page with an image, bio, social media links, and information about their talk. The schedule is also shown as a sidebar on each corresponding stage.
 
 ### Sponsor Expo
 
@@ -322,4 +322,4 @@ export default async function getDiscordMessage(req: NextApiRequest, res: NextAp
 
 ### Demo
 
-The demo is available at https://demo.vercel.events. The data recorded or used on the demo may be removed by Vercel at any point.
+The demo is available at https://demo.NT.GG.events. The data recorded or used on the demo may be removed by NT.GG at any point.
