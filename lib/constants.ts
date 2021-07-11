@@ -18,7 +18,7 @@ export const SITE_URL = 'https://demo.vercel.events';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'NT.GG';
 export const BRAND_NAME = 'NT.GG';
-export const SITE_NAME_MULTILINE = ['NT', 'GG];
+export const SITE_NAME_MULTILINE = ['NT', 'GG'];
 export const SITE_NAME = 'NT.GG Conf';
 export const META_DESCRIPTION =
   'This is an demo that NT.GG users can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers.';
