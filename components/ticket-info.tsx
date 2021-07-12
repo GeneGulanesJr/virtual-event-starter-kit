@@ -28,7 +28,7 @@ export default function TicketInfo({ logoTextSecondaryColor = 'var(--accents-5)'
     <div className={styles['created-by']}>
       <div className={styles['created-by-text']}>Created by </div>
       <div className={styles['created-by-logo']}>
-        <NT.GGLogo height="100%" color="var(--accents-4)" />
+        <vercelLogo height="100%" color="var(--accents-4)" />
       </div>
     </div>
   );
