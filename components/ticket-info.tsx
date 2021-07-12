@@ -40,7 +40,7 @@ export default function TicketInfo({ logoTextSecondaryColor = 'var(--accents-5)'
                 <div>ONLINE</div>
             </div>
 
-            <div className={styles.url}>{siteUrlForTicket}</div>
+            <div className={styles['created-by-text2']}>Have Fun :)</div>
 
         </div>
     );
